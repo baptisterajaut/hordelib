@@ -29,7 +29,7 @@ def initialise(
     disable_smart_memory: bool = False,
     do_not_load_model_mangers: bool = True,
     models_not_to_force_load: list[str] | None = None,
-    do_not_initlalize_comfyui: bool = 
+    do_not_initlalize_comfyui: bool =  False,
 ):
     """Initialise hordelib. This is required before using any other hordelib functions.
 
